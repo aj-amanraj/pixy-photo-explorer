@@ -1,16 +1,18 @@
-# React + Vite
+# Pixy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Pinterest-like image search app built with React + Unsplash API.
 
-Currently, two official plugins are available:
+## Features
+- Infinite scroll
+- Image preview modal
+- Debounced search
+- Responsive masonry layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+1. Clone repo
+2. Create `.env`
+3. Add:
+   VITE_UNSPLASH_ACCESS_KEY=your_key
+4. Run:
+   npm install
+   npm run dev
