@@ -6,8 +6,8 @@ const Navbar = ({ setSearch }) => {
     <div className="sticky top-0 z-50 bg-black/70 backdrop-blur-md border-b border-gray-800 shadow-md">
       <div className="flex items-center justify-between px-4 py-3 gap-4">
 
-        <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent ml-10">
-          Pixy
+        <h1 className="text-3xl sm:text-4xl font-black tracking-wide bg-gradient-to-r from-white/90 via-white to-white/70 bg-clip-text text-transparent font-serif leading-tight">
+        Pixy
         </h1>
 
         <SearchBar setSearch={setSearch} />
